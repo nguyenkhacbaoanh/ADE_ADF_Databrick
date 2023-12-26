@@ -1,0 +1,9 @@
+{
+	"name": "ADEazuredatafactory",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b37e1f20-9a5d-4b0a-94d5-a6bb764203d3",
+		"tenantId": "9e418e84-29dd-4f72-a93e-735d8d54da31"
+	}
+}

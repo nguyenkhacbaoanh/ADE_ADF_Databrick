@@ -1,0 +1,13 @@
+{
+	"name": "TablesQuery",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
