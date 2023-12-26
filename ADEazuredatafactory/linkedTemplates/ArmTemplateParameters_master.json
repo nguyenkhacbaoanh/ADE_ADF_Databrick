@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADEazuredatafactory"
+		},
+		"DatalakeBronze_accountKey": {
+			"value": ""
+		},
+		"GitHub1_credential": {
+			"value": ""
+		},
+		"SourceDB_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=adedatabaseserver2.database.windows.net;Initial Catalog=adedatabase;User ID=adesqlserver"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1226-080639-torw6ba7"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://ADEkeyvaut.vault.azure.net/"
+		},
+		"DatalakeBronze_properties_typeProperties_url": {
+			"value": "https://adestorageaccounts.dfs.core.windows.net/"
+		},
+		"GitHub1_properties_typeProperties_username": {
+			"value": "nguyenkhacbaoanh"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
